@@ -40,6 +40,7 @@ export const TodoForm = () => {
 
 
   const onUpdate = (id:number) => {
+    // console.log(id)
     if(editTask.length === 0) {
       return 
     }
